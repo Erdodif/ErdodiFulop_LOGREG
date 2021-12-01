@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
+    tools:context=".RegisterActivity"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/uname"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        android:id="@+id/inputUName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/e_mail"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        android:id="@+id/inputEmail"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        android:id="@+id/inputPassword"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fname"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        android:id="@+id/inputFullName"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cornerRadius="10dp"
+        android:text="@string/register"
+        android:id="@+id/btnRegisztracio"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cornerRadius="10dp"
+        android:text="@string/vissza"
+        android:id="@+id/btnVissza"/>
+
+</LinearLayout>

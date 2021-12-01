@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">LOGREG</string>
+    <string name="vissza">Vissza</string>
+    <string name="logout">Kijelentkezés</string>
+    <string name="uname_or_email">Felhasználónév vagy email</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="register">Regisztráció</string>
+    <string name="fname">Teljes Név</string>
+    <string name="e_mail">E-mail</string>
+    <string name="uname">Felhasználónév</string>
 </resources>
